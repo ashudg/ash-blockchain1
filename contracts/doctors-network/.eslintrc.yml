@@ -16,7 +16,7 @@ globals:
     emit: true
 rules:
     indent:
-        - error
+        - off
         - 4
     linebreak-style:
         - error
@@ -34,15 +34,15 @@ rules:
     curly: error
     eqeqeq: error
     no-throw-literal: error
-    strict: error
+    strict: off
     dot-notation: error
     no-tabs: error
-    no-trailing-spaces: error
+    no-trailing-spaces: off
     no-useless-call: error
     no-with: error
     operator-linebreak: error
     require-jsdoc:
-        - error
+        - off
         - require:
             ClassDeclaration: true
             MethodDefinition: true
