@@ -25,7 +25,7 @@ async function visitDoctor(visitDoc) {
 }
 
 /**
-* Initialize some test assets and participants useful for running a demo.
+* Initialize some test assets and participants useful for running a demo..
 * @param {org.doctors.network.SetupDemo} setupDemo - the SetupDemo transaction
 * @transaction
 */
